@@ -27,5 +27,14 @@ function kilogramToPound() {
 
 inputEl.addEventListener("input", meterToFeet)
 
-
-
+function multiply(arr, n) {
+    // Only change code below this line
+    let product = 1;
+      for (let i = 0; i < n; i++) {
+        product *= arr[i];
+      }
+      return product;
+    }
+  
+  let myArray = [1, 2, 3];
+  console.log(multiply(myArray, 5));
