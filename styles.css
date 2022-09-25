@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+.top {
+    background: linear-gradient(90deg, #FBAF8D, #E7786F, #A83362);
+    padding: 20px;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    font-size: 6em;
+    margin: 10px;
+    text-shadow: 0 0 40px #8C3738, 0 0 40px #8C3738, 0 0 40px #8C3738, 0 0 40px #8C3738;
+}
+input {
+    text-align: center;
+    font-size: 2em;
+    height: 50px;
+    border-radius: 5px;
+}
+.bottom {
+    background-color: #1F2937;
+    padding: 30px;
+}
